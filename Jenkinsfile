@@ -6,7 +6,7 @@ pipeline {
       steps {
         script {
           echo 'Building.....'
-		  more index.html
+		  echo index.html
         }
       }
     }
