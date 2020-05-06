@@ -8,7 +8,7 @@ pipeline {
           echo 'Building.....'
 		  bat 'echo index.html'
 		  echo 'Java script'
-		  bat 'node hello.js'
+		  'cmd.exe /c node hello.js'
         }
       }
     }
