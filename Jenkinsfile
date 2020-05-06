@@ -6,7 +6,7 @@ pipeline {
       steps {
         script {
           echo 'Building.....'
-		  echo index.html
+		  bat 'echo index.html'
         }
       }
     }
